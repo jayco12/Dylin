@@ -12,12 +12,14 @@ export const Estate = () => {
           <Col xs={12} md={6} xl={7}>
           <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                
+              <div className={isVisible ? "animate__animated animate__fadeIn" : "est"}>
+               <div className="divide">
+                <br/>
                 <h1>Real Estate Wealth, Right in Your Pocket </h1>
                 <br/>
-                <h4>DYLIN is designed to empower individuals in Africa with the opportunity to invest in real estate through fractional ownership</h4>
+                <h3>DYLIN is designed to empower individuals in Africa with the opportunity to invest in real estate through fractional ownership</h3>
                   <br/>
+                  </div>
                 <h4>Effortless Real Estate Investment:</h4>
                   <p>Explore, buy, and sell properties with ease, no complex paperwork required. Manage and monitor your investments seamlessly.</p>
                   <br/>

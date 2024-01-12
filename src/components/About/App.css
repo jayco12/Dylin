@@ -1,6 +1,11 @@
 .wwa {
     margin-top: 0;
     padding: 130px 0 50px 0;
+    background-image: url(../../assets/est.jpeg);
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .wwa h1 {
@@ -9,7 +14,7 @@
     letter-spacing: 0.8px;
     line-height: 1;
     margin-top: 50px;
-    color:rgb(8, 96, 104) ;
+    color:rgb(92, 164, 171) ;
     margin-bottom: 5px;
     display: block;
     text-align: center;
@@ -19,13 +24,13 @@
     font-weight: 500;
     letter-spacing: 0.8px;
     line-height: 1;
-    color:rgb(0, 0, 0) ;
+    color:rgb(245, 242, 242) ;
     margin-bottom: 20px;
     display: block;
     text-align: center;
   }
   .wwa p {
-    color: #0b0101;
+    color: #eae7e7;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;

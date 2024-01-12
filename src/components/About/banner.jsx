@@ -10,15 +10,8 @@ export const Wwa = () => {
     <section className="wwa" id="about">
       <Container>
         <Row className="aligh-items-center">
-          <Col xs={12} md={6} xl={6}>
-          <TrackVisibility>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
-                </div>}
-            </TrackVisibility>
-          </Col>
-          <Col xs={12} md={6} xl={6}>
+         
+          <Col xs={12} md={12} xl={12}>
           <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
