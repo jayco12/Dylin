@@ -1,0 +1,61 @@
+.step {
+    margin-top: 0;
+    padding: 100px 0 50px 0;
+  }
+  
+  .step h1 {
+    font-size: 40px;
+    color:rgb(9, 9, 9) ;
+  }
+  .step h2 {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    color:rgb(44, 46, 46) ;
+    display: block;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .step h3{
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .center{
+    text-align: center;
+  }
+  .step p {
+    color: #100e0e;
+    font-size: 15px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 96%;
+   padding-left: 100px;
+   padding-right: 100px;
+  }
+  @media (max-width: 1100px) {
+
+    .step h2 {
+      font-size: 25px;
+      font-weight: 400;
+      letter-spacing: 0.8px;
+      line-height: 1;
+      margin-top: 20px;
+      color:rgb(44, 46, 46) ;
+      display: block;
+    }
+    .step h3{
+      font-size: 25px;
+      font-weight: 500;
+    }
+    .step p {
+      color: #100e0e;
+      font-size: 15px;
+      letter-spacing: 0.8px;
+      line-height: 1.5em;
+      width: 96%;
+    }
+  }
+  

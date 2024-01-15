@@ -56,6 +56,15 @@ const NavBar = () => {
                 About Us
               </Nav.Link>
               <Nav.Link
+                className={activeLink === 'hiw' ? 'active navbar-link' : 'navbar-link'}
+                onClick={() => {
+                  setActiveLink('/hiw');
+                  navigate('/hiw');
+                }}
+              >
+                How it Works
+              </Nav.Link>
+              <Nav.Link
                 className={activeLink === 'faqs' ? 'active navbar-link' : 'navbar-link'}
                 onClick={() => {
                   setActiveLink('/faq');
@@ -66,15 +75,24 @@ const NavBar = () => {
               </Nav.Link>
             </Nav>
             <Nav className="ml-auto">
+            <Nav.Link
+                className={activeLink === 'login' ? 'active navbar-link' : 'navbar-link'}
+                onClick={() => {
+                  setActiveLink('/login');
+                  navigate('/login');
+                }}
+              >
+                Log In
+              </Nav.Link>
             <Button
               variant="outline-light" 
-              className={`waitlist-button ${activeLink === 'waitlist' ? 'active' : ''}`}
+              className={`waitlist-button ${activeLink === 'signup' ? 'active' : ''}`}
               onClick={() => {
-                setActiveLink('/waitlist');
-                navigate('/waitlist');
+                setActiveLink('/signup');
+                navigate('/signup');
               }}
             >
-              Join the waitlist
+              Sign Up for free
             </Button>
             </Nav>
           </Navbar.Collapse>
